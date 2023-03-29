@@ -50,7 +50,7 @@ padding: 0rem 2rem;
 border-bottom-left-radius: 70px;
 }
 header {
-    background-image: url(blogr-landing-page-main/images/bg-pattern-intro-mobile.svg);
+    background-image: url(/blogr-landing-page-main/images/bg-pattern-intro-mobile.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -216,21 +216,25 @@ span p {
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
     height: 25rem;
-    background-image: url(blogr-landing-page-main/images/bg-pattern-circles.svg);
+    background-image: url(/blogr-landing-page-main/images/bg-pattern-circles.svg);
     background-repeat: no-repeat;
-    background-position: top-right;
-    background-position-y: top;
+    background-size: 1000px;
+    height: 420px;
+    background-position: -320px -500px;
+
     margin-top: 1rem;
 }
 .art2 {
-    width: 550px;
+    width: 100%;
+    width: 500px;
 }
 .art1 {
-    width: 100%;
+    margin-right: 5rem;
+
 }
-.art1 img {
+/* .art1 img {
     width: 100%;
-}
+} */
 .seondart {
     width: 100%;
 }
@@ -319,7 +323,7 @@ footer p {
 
 .ART {
     margin-top: 9rem;
-    height: 90%;
+    height: 90%; 
   }
   }
 @media only screen and (max-width: 930px)  {
@@ -357,6 +361,7 @@ footer p {
         margin: 2rem 0rem;
         display: none;
     }
+
     .logins {
         display: flex;
         flex-direction: column;
@@ -476,7 +481,13 @@ margin-top: 0rem;
         margin-left: 0em;
     margin-top: 2rem;
     }
-}
+    .art1 img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    }
 @media only screen and (max-width: 500px)  {
     footer {
         display: flex;
@@ -493,6 +504,9 @@ margin-top: 0rem;
     }
     .nav {
         margin: 0rem 1rem;
+    }
+    .freesection img {
+        width: 100%;
     }
 
 }
