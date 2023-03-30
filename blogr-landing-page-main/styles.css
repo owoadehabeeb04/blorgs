@@ -370,6 +370,8 @@ footer p {
     .nav {
         display: flex;
         flex-direction: column;
+        background-image: url(/blogr-landing-page-main/images/bg-pattern-intro-mobile.svg);
+        background-repeat: no-repeat;
     }
     .blogr {
         display: flex;
