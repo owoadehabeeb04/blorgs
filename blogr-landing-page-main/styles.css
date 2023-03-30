@@ -50,7 +50,7 @@ padding: 0rem 2rem;
 border-bottom-left-radius: 70px;
 }
 header {
-    background-image: url(/blogr-landing-page-main/images/bg-pattern-intro-mobile.svg);
+    background-image: url(blogr-landing-page-main/images/bg-pattern-intro-mobile.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -216,7 +216,7 @@ span p {
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
     height: 25rem;
-    background-image: url(/blogr-landing-page-main/images/bg-pattern-circles.svg);
+    background-image: url(blogr-landing-page-main/images/bg-pattern-circles.svg);
     background-repeat: no-repeat;
     background-size: 1000px;
     height: 420px;
@@ -326,7 +326,7 @@ footer p {
     height: 90%; 
   }
   }
-@media only screen and (max-width: 930px)  {
+@media only screen and (max-width: 930px)  
     .section2 {
         display: flex;
         flex-direction: column-reverse;
@@ -370,7 +370,7 @@ footer p {
     .nav {
         display: flex;
         flex-direction: column;
-        background-image: url(/blogr-landing-page-main/images/bg-pattern-intro-mobile.svg);
+        background-image: url(blogr-landing-page-main/images/bg-pattern-intro-mobile.svg);
         background-repeat: no-repeat;
     }
     .blogr {
